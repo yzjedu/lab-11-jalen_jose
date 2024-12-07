@@ -57,11 +57,26 @@
 |**YES-NO** | Algorithm      |
 
 ### Comments on the grading
-- There is nothing to grade here
-- 
+- There are codes that are copied from LLM
+- ```python
+if __name__ == "__main__":
+    main()
+
+error_check_filename(
+        "Enter the Morse code mapping file (e.g., morsecode.txt): ",
+        ["morsecode.txt"
+
+ try:
+        with open(filename, "r") as file:
+            return file.readlines()
+    except FileNotFoundError:
+        print(f"Error: {filename} not found.")
+        exit()
+```
 - 
 
-### Grade: N
+### Grade: R
 
-### Participation Grade: U
+### Participation Grade: S
+U for jalen
  - If participation grade is unsatisfactory check the `NO` in the documents sections
